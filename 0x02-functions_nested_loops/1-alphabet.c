@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* main - check the code
+* print alphabet - Entery point
+*
 *
 * Return: Always 0.
 */
