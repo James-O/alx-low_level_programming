@@ -1,15 +1,14 @@
 #include "lists.h"
 
 /**
- * print_listint_safe - Func that return linked lists
+ * print_listint_safe - List safes
  * @head: Main
  *
- * Return: a
+ * Return: i
  */
-
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t a = 0;
+	size_t i = 0;
 	const listint_t *temp, *node;
 
 	node = head;
@@ -18,12 +17,12 @@ size_t print_listint_safe(const listint_t *head)
 		printf("[%p] %d\n", (void *)node, node->n);
 		temp = node;
 		node = node->next;
-		a++;
+		i++;
 		if (temp <= node)
 		{
 			printf("-> [%p] %d\n", (void *)node, node->n);
 			break;
 		}
 	}
-	return (a);
+	return (i);
 }
