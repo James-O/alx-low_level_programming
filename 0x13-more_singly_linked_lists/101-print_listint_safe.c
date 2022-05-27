@@ -2,7 +2,7 @@
 
 /**
  * print_listint_safe - Func that return linked lists
- * @head: main
+ * @head: Main
  *
  * Return: a
  */
