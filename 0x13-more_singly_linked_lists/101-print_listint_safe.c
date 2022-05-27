@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_listint_safe - List safes
- * @head: Main
+ * print_listint_safe - Listas enlazadas
+ * @head: Dado desde main
  *
  * Return: i
  */
